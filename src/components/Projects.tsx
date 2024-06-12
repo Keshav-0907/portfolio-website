@@ -10,9 +10,10 @@ const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const colorMode = "dark";
 
-  const handleCategory = (category) => {
+  const handleCategory = (category: any): void => {
     setActiveCategory(category);
   };
+  
 
   const filteredProjects =
     activeCategory === "all"
