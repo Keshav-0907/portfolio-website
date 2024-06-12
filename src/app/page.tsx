@@ -9,8 +9,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#111111] h-fit text-[#CAC8C5] font-inika flex justify-center py-5">
-      <div className="md:w-1/2 md:px-0 px-10">
+    <div className="bg-[#111111] h-fit text-[#CAC8C5] font-inika flex justify-center">
+      <div className="md:w-1/2 md:px-3 px-10">
         <Header />
         <Hero />
         <div className="w-full h-[1px] my-5 bg-[#CAC8C5] opacity-20"></div>

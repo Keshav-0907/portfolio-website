@@ -8,7 +8,7 @@ const TechStack = () => {
         <div className='text-2xl font-semibold'>
             ~ My Techstack
         </div>
-        <div className='flex gap-3 py-5 flex-wrap'>
+        <div className='flex gap-2 py-5 flex-wrap'>
           {
             TechStacks.map((tech) => (
               <div key={tech.id} className='flex items-center justify-center px-4 py-1 border-[1px] rounded-sm gap-2 transition transform hover:scale-105 hover:rotate-6 cursor-pointer'>

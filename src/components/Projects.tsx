@@ -52,7 +52,8 @@ const Projects = () => {
                 </div>
                 <div className="flex gap-4 bg-[#1B1B1D]">
                   <Link
-                    href={"/"}
+                    href={project.github}
+                    target="_blank"
                     className="bg-[#2E2E30] flex gap-2 text-[#8e8d8b] px-2 py-1 rounded-md items-center"
                   >
                     {" "}
