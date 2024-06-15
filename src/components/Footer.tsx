@@ -13,11 +13,11 @@ const Footer = () => {
           <div className='flex flex-col gap-1'>
             <div className='flex flex-col'>
               <span className='text-lg font-medium'>✉️ Email</span>
-              <Link href={'mailto://kmalik0907@gmail.com'} className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> kmalik0907@gmail.com </Link>
+              <Link href={'mailto://kmalik0907@gmail.com'} className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2 md:text-base text-xs'> kmalik0907@gmail.com </Link>
             </div>
             <div className='flex flex-col'>
               <span className='text-lg font-bold'>📄 Resume </span>
-              <Link href={'https://drive.google.com/file/d/1rSzeCxUg-6ugiJOrqQIDlTsChgSDMfc-/view?usp=sharing'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> Download Resume </Link>
+              <Link href={'https://drive.google.com/file/d/1rSzeCxUg-6ugiJOrqQIDlTsChgSDMfc-/view?usp=sharing'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2 md:text-base text-xs'> Download Resume </Link>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
           <div className='flex flex-col gap-1'>
             <div className='flex flex-col'>
               <span className='text-lg font-medium'> 💻 Github</span>
-              <Link href={'https://github.com/Keshav-0907'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> /keshav-0907 </Link>
+              <Link href={'https://github.com/Keshav-0907'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2 md:text-base text-xs'> @keshav-0907 </Link>
             </div>
 
           </div>
@@ -40,15 +40,15 @@ const Footer = () => {
           <div className='flex flex-col gap-1'>
             <div className='flex flex-col'>
               <span className='text-lg font-medium'>📱 LinkedIn</span>
-              <Link href={'https://www.linkedin.com/in/keshavmalik'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> /keshav-malik </Link>
+              <Link href={'https://www.linkedin.com/in/keshavmalik'} target='_blank' className='text-[#7d7474] md:text-base text-xs hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> @keshav-malik </Link>
             </div>
             <div className='flex flex-col'>
               <span className='text-lg font-bold'>🐦 Twitter </span>
-              <Link href={'https://twitter.com/_keshav_malik'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> @_keshav_malik </Link>
+              <Link href={'https://twitter.com/_keshav_malik'} target='_blank' className='text-[#7d7474] md:text-base text-xs hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> @_keshav_malik </Link>
             </div>
             <div className='flex flex-col'>
               <span className='text-lg font-medium'> 📸 Instagram </span>
-              <Link href={'https://www.instagram.com/_keshav_malik'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> @_keshav_malik </Link>
+              <Link href={'https://www.instagram.com/_keshav_malik'} target='_blank' className='text-[#7d7474] md:text-base text-xs hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2'> @_keshav_malik </Link>
             </div>
 
           </div>
