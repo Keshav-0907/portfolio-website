@@ -25,7 +25,7 @@ const Projects = () => {
   console.log(activeCategory);
 
   return (
-    <div id="projects">
+    <div id="projects" className="md:px-0 px-3">
       <div className="text-2xl font-semibold">~ Projects</div>
       <div className="flex flex-col gap-4 py-4">
         {ProjectData.map((project) => {
@@ -89,6 +89,7 @@ const Projects = () => {
           );
         })}
         <div>
+          <span> {`>>>`} </span>
           <span> You can see my more projects on</span>{" "}
           <Link href={"https://github.com/Keshav-0907"} target="_blank" className="font-bold hover:underline">
             {" "}

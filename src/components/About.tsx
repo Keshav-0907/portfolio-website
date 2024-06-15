@@ -8,9 +8,10 @@ const About = () => {
         ~ About
       </div>
 
-        <div className='text-sm'>
-          Hello world; <br /> {"I'm"} Keshav Malik, a versatile software developer adept at building robust and scalable systems. I excel in creating seamless backend solutions that power modern applications.
-        </div>
+      <div className='text-sm'>
+        Hello world; <br /> {"I'm"} Keshav Malik,
+        a versatile software developer and designer focused on building robust, scalable websites and applications. I excel in creating seamless backend solutions that power modern applications, with a strong emphasis on user experience, design aesthetics, developer experience, and meaningful impact.
+      </div>
 
     </div>
   )
