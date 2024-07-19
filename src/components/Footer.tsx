@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <div id='contact' className='border-t-2 border-[#2C2B2A] py-3 font-inika'>
+    <div id='contact' className='border-t-2 border-[#2C2B2A] p-3 font-inika'>
       <div className="text-2xl font-semibold"> ~ {"Let's"} Connect </div>
       <div className='flex justify-between py-5'>
         <div className='flex flex-col gap-5'>

@@ -3,7 +3,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 const About = () => {
   return (
-    <div className='flex flex-col gap-5'>
+    <div className='flex flex-col gap-5 px-3'>
       <div className='text-2xl font-semibold'>
         ~ About
       </div>

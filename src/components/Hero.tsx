@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Hero = () => {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center px-3'>
             <div className='flex gap-3'>
                 <div className=''>
                     <img src='/pp.jpg' alt='hero' className='w-[70px] h-[70px] rounded-xl object-cover cursor-pointer hover:grayscale' />

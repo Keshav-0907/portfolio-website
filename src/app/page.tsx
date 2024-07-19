@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#111111] h-fit text-[#CAC8C5] font-inika flex justify-center ">
-      <div className="md:w-1/2 p-2">
+      <div className="md:w-1/2">
         <div className="w-full">
           <Header />
           <Hero />
