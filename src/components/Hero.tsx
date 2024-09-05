@@ -13,7 +13,6 @@ const Hero = () => {
                     <div className='text-2xl'> Keshav Malik </div>
                     <div className=''> Software Developer </div>
                 </div>
-
             </div>
             {/* <div className=''>
                 <div className='flex gap-2 text-[#111111] bg-[#CAC8C5] p-2 items-center rounded-md cursor-pointer'>

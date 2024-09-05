@@ -42,26 +42,26 @@ const Projects = () => {
   return (
     <div className="text-[#CAC8C5] font-inika flex justify-center">
       <div className="md:w-1/2 w-full px-2">
-        <div className="flex flex-col">
+        {/* <div className="flex flex-col">
           <Header />
           <Hero />
-        </div>
+        </div> */}
         <div className="w-full h-[1px] my-5 bg-[#CAC8C5] opacity-20"></div>
         <div className="flex flex-col gap-3">
           <div className="text-2xl w-1/2">~ All Projects</div>
           <div className="flex gap-4 overflow-scroll">
             {ProjectCategories.map((category) => (
-              <button
+              <div
                 onClick={() => setSelectedCategory(category.value)}
                 key={category.value}
-                className={`px-2 border-[#CAC8C5] border-[1px] rounded-lg ${
+                className={`px-2 flex items-center max-h-10 cursor-pointer  border-[#CAC8C5] border-[1px] rounded-lg ${
                   selectedCategory === category.value
                     ? "bg-[#CAC8C5] text-[#111111]"
-                    : ""
+                    : "hover:bg-[#373736]"
                 }`}
               >
                 {category.name}
-              </button>
+              </div>
             ))}
           </div>
           {filteredProjects.map((project) => (

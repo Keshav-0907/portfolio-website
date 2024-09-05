@@ -11,10 +11,6 @@ export default function Home() {
   return (
     <div className="bg-[#111111] h-fit text-[#CAC8C5] font-inika flex justify-center ">
       <div className="md:w-1/2">
-        <div className="w-full">
-          <Header />
-          <Hero />
-        </div>
         <div className="w-full h-[1px] my-5 bg-[#CAC8C5] opacity-20"></div>
         <div className="flex flex-col gap-10">
           <About />
