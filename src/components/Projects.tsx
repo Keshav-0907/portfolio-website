@@ -66,7 +66,7 @@ const Projects = () => {
                     target="_blank"
                     className="bg-[#2E2E30] flex gap-2 text-[#8e8d8b] px-3 py-2 rounded-md items-center"
                   >
-                    <span className="bg-[#2E2E30] border-[1px] bprder">Github Repo</span>
+                    <span className="bg-[#2E2E30]">Github Repo</span>
                   </Link>
                   <Link
                     href={project.url}
