@@ -1,5 +1,15 @@
 const ProjectData = [
   {
+    id: 8,
+    title: "FlexiConvert",
+    url: "https://flexi-convert.vercel.app/",
+    img: "https://res.cloudinary.com/dzqgyl0wf/image/upload/v1725838315/brnvcaizvqrbt84ldfov.png",
+    stack: ["NextJS", "TailwindCSS", "ShadCN"],
+    github: "https://github.com/Keshav-0907/FlexiConvert",
+    category: ["frontend"],
+    desc: "FlexiConvert: Convert images to different formats and sizes.",
+  },
+  {
     id: 1,
     title: "My Link Bit",
     url: "https://mylb.xyz/",
@@ -7,7 +17,7 @@ const ProjectData = [
     img: "https://firebasestorage.googleapis.com/v0/b/keshav-37911.appspot.com/o/Screenshot%202024-06-09%20at%204.10.26%E2%80%AFAM.png?alt=media&token=5df2dd12-dcda-4530-9b04-35ac5447d536",
     stack: ["MongoDB", "NextJS", "NodeJS", "REST API"],
     github: "https://github.com/Keshav-0907/link-bit",
-    category: ["frontend", "fullstack"]
+    category: ["frontend", "fullstack"],
   },
   {
     id: 2,
@@ -37,7 +47,7 @@ const ProjectData = [
     img: "https://firebasestorage.googleapis.com/v0/b/medial-ca24f.appspot.com/o/Screenshot%202024-08-05%20at%202.39.37%E2%80%AFAM.png?alt=media&token=d4d297e3-d591-424d-a8f9-d6ebd91a5c12",
     stack: ["MongoDB", "NextJS", "NodeJS", "React DND"],
     github: "https://github.com/Keshav-0907/TaskFlow",
-    category: ["fullstack", "frontend"]
+    category: ["fullstack", "frontend"],
   },
   {
     id: 4,
@@ -68,7 +78,7 @@ const ProjectData = [
     img: "https://firebasestorage.googleapis.com/v0/b/keshav-37911.appspot.com/o/Screenshot%202024-06-09%20at%204.20.10%E2%80%AFAM.png?alt=media&token=c6962e7f-5f51-438e-9f13-9b18b6e4a393",
     stack: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
     github: "https://github.com/Keshav-0907/konix",
-    category: ["frontend"]
+    category: ["frontend"],
   },
   {
     id: 7,
@@ -78,9 +88,8 @@ const ProjectData = [
     img: "https://firebasestorage.googleapis.com/v0/b/keshav-37911.appspot.com/o/Screenshot%202024-06-09%20at%209.06.14%E2%80%AFPM.png?alt=media&token=808581b4-2185-41fe-b83f-43b91d0a1c20",
     stack: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS"],
     github: "https://github.com/Keshav-0907/genAI-PDF-reader",
-    category: ["frontend", "generativeAI"]
+    category: ["frontend", "generativeAI"],
   },
-
 ];
 
 export default ProjectData;

@@ -53,7 +53,7 @@ const Projects = () => {
 
               <div className="flex flex-col gap-3 bg-[#1B1B1D] flex-grow">
                 <div className="flex flex-col">
-                  <span className="text-xl font-bold bg-[#1B1B1D] mb-1">
+                  <span className="text-xl font-bold bg-[#1B1B1D] ">
                     {project.title}
                   </span>
                   <span className="text-[#8e8d8b] text-sm bg-[#1B1B1D]">
