@@ -1,13 +1,13 @@
 const ProjectData = [
   {
-    id: 8,
-    title: "FlexiConvert",
-    url: "https://flexi-convert.vercel.app/",
-    img: "https://res.cloudinary.com/dzqgyl0wf/image/upload/v1725838315/brnvcaizvqrbt84ldfov.png",
-    stack: ["NextJS", "TailwindCSS", "ShadCN"],
-    github: "https://github.com/Keshav-0907/FlexiConvert",
-    category: ["frontend"],
-    desc: "FlexiConvert: Convert images to different formats and sizes.",
+    id: 1,
+    title: "Ghar Setu",
+    url: "https://www.gharsetu.com/",
+    desc: "A Fully functional Real Estate Platform",
+    img: "https://res.cloudinary.com/dzqgyl0wf/image/upload/v1726076321/iu3jd8uixs29tmadzsev.png",
+    stack: ["MongoDB", "NextJS", "NodeJS", "REST API"],
+    github: "https://www.gharsetu.com/",
+    category: ["frontend", "fullstack"],
   },
   {
     id: 1,
@@ -20,6 +20,16 @@ const ProjectData = [
     category: ["frontend", "fullstack"],
   },
   {
+    id: 8,
+    title: "FlexiConvert",
+    url: "https://flexi-convert.vercel.app/",
+    img: "https://res.cloudinary.com/dzqgyl0wf/image/upload/v1725838315/brnvcaizvqrbt84ldfov.png",
+    stack: ["NextJS", "TailwindCSS", "ShadCN"],
+    github: "https://github.com/Keshav-0907/FlexiConvert",
+    category: ["frontend"],
+    desc: "FlexiConvert: Convert images to different formats and sizes.",
+  },
+  {
     id: 2,
     title: "Write Wiz",
     url: "https://write-wiz.vercel.app/",
@@ -28,7 +38,17 @@ const ProjectData = [
     stack: ["MongoDB", "Gemini API", "ExpressJS", "ReactJS", "NodeJS"],
     github: "https://github.com/Keshav-0907/WriteWiz",
     category: ["frontend", "generativeAI", "fullstack"],
+  },  {
+    id: 4,
+    title: "Trello-Style Task Management",
+    url: "https://task-flow-101.vercel.app/",
+    desc: "A Trello-like task manager with drag-and-drop functionality for easy task organization.",
+    img: "https://firebasestorage.googleapis.com/v0/b/medial-ca24f.appspot.com/o/Screenshot%202024-08-05%20at%202.39.37%E2%80%AFAM.png?alt=media&token=d4d297e3-d591-424d-a8f9-d6ebd91a5c12",
+    stack: ["MongoDB", "NextJS", "NodeJS", "React DND"],
+    github: "https://github.com/Keshav-0907/TaskFlow",
+    category: ["fullstack", "frontend"],
   },
+  
   {
     id: 3,
     title: "etherEase",
@@ -39,16 +59,7 @@ const ProjectData = [
     github: "https://github.com/Keshav-0907/etherEase",
     category: ["blockchain", "frontend", "fullstack"],
   },
-  {
-    id: 4,
-    title: "Trello-Style Task Management",
-    url: "https://task-flow-101.vercel.app/",
-    desc: "A Trello-like task manager with drag-and-drop functionality for easy task organization.",
-    img: "https://firebasestorage.googleapis.com/v0/b/medial-ca24f.appspot.com/o/Screenshot%202024-08-05%20at%202.39.37%E2%80%AFAM.png?alt=media&token=d4d297e3-d591-424d-a8f9-d6ebd91a5c12",
-    stack: ["MongoDB", "NextJS", "NodeJS", "React DND"],
-    github: "https://github.com/Keshav-0907/TaskFlow",
-    category: ["fullstack", "frontend"],
-  },
+
   {
     id: 4,
     title: "SafeGuard Vision",
