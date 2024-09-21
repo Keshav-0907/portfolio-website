@@ -1,10 +1,13 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+import StackIcon from 'tech-stack-icons';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 
 const Hero = () => {
     return (
-        <div className='flex justify-between items-center px-3'>
+        <div className='flex justify-between px-3 gap-5'>
             <Link href={'/'} className='flex gap-3'>
                 <div className=''>
                     <img src='/pp.jpg' alt='hero' className='w-[70px] h-[70px] rounded-xl object-cover cursor-pointer hover:grayscale' />
@@ -14,6 +17,10 @@ const Hero = () => {
                     <div className=''> Software Developer </div>
                 </div>
             </Link>
+            <div className='flex gap-3 text-sm'>
+                <Link href={'https://github.com/Keshav-0907'} className='flex items-center gap-2 cursor-pointer border-gray-600 border-[1px] h-fit px-3 py-1 rounded-md w-fit'> <FaGithub/> Github </Link>
+                <Link href={'https://www.linkedin.com/in/keshavmalik'} className='flex items-center gap-2 cursor-pointer border-gray-600 border-[1px] h-fit px-3 py-1 rounded-md w-fit'> <FaLinkedin/> LinkedIn </Link>
+            </div>
             {/* <div className=''>
                 <div className='flex gap-2 text-[#111111] bg-[#CAC8C5] p-2 items-center rounded-md cursor-pointer'>
                     <ExternalLink className='bg-[#CAC8C5]' size={15} strokeWidth={1.5} />

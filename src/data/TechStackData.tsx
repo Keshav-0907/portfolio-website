@@ -64,5 +64,10 @@ export const TechStacks = [
         name: 'MySQL',
         icon: 'mysql'
     },
+    {
+        id: 13, 
+        name: 'AWS',
+        icon: 'aws'
+    },
 ]
 

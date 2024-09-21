@@ -11,6 +11,16 @@ const ProjectData = [
   },
   {
     id: 1,
+    title: "Compile-X",
+    url: "compile-x-hazel.vercel.app",
+    desc: "A Web based code Compiler",
+    img: "/CompileX.png",
+    stack: ["MongoDB", "ReactJS", "NodeJS", "REST API"],
+    github: "https://github.com/Keshav-0907/CompileX",
+    category: ["frontend", "fullstack"],
+  },
+  {
+    id: 1,
     title: "My Link Bit",
     url: "https://mylb.xyz/",
     desc: "A URL shortener with a dashboard, REST API, and a ReactJS frontend.",
