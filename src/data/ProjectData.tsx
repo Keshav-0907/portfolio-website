@@ -12,7 +12,7 @@ const ProjectData = [
   {
     id: 1,
     title: "Compile-X",
-    url: "compile-x-hazel.vercel.app",
+    url: "https://compile-x-hazel.vercel.app",
     desc: "A Web based code Compiler",
     img: "/CompileX.png",
     stack: ["MongoDB", "ReactJS", "NodeJS", "REST API"],
