@@ -4,7 +4,7 @@ const ProjectData = [
     title: "Ghar Setu",
     url: "https://www.gharsetu.com/",
     desc: "A Fully functional Real Estate Platform",
-    img: "https://res.cloudinary.com/dzqgyl0wf/image/upload/v1726076321/iu3jd8uixs29tmadzsev.png",
+    img: "/GharSetu.png",
     stack: ["MongoDB", "NextJS", "NodeJS", "REST API"],
     github: "https://www.gharsetu.com/",
     category: ["frontend", "fullstack"],

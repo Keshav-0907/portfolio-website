@@ -10,7 +10,7 @@ const About = () => {
 
       <div className='text-sm'>
         Hello world; <br /> {"I'm"} Keshav Malik,
-        a versatile software developer and designer focused on building robust, scalable websites and applications. I excel in creating seamless backend solutions that power modern applications, with a strong emphasis on user experience, design aesthetics, developer experience, and meaningful impact.
+        a versatile Full Stack developer and designer focused on building robust, scalable websites and applications. I excel in creating seamless backend solutions that power modern applications, with a strong emphasis on user experience, design aesthetics, developer experience, and meaningful impact.
       </div>
 
     </div>

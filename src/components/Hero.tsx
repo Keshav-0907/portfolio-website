@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
                 <div className='flex flex-col justify-center'>
                     <div className='text-2xl'> Keshav Malik </div>
-                    <div className=''> Software Developer </div>
+                    <div className=''> Full Stack Developer </div>
                 </div>
             </Link>
             <div className='flex gap-3 text-sm'>
