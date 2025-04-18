@@ -27,7 +27,7 @@ const ExperianceCard = ({ data }: ExperianceCardProps) => {
         </div>
 
         <div className='text-sm flex flex-col items-end'>
-          <div>{data.duration}</div>
+          <div className='whitespace-nowrap'>{data.duration}</div>
           <div className='text-gray-400'> {data.location} </div>
         </div>
       </div>

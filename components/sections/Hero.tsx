@@ -16,7 +16,7 @@ const socials = [
 
 const Hero = () => {
     return (
-        <div className='text-base pt-8 pb-4 flex gap-4 flex-col'>
+        <div className='text-base pt-8 md:pb-4 flex gap-4 flex-col'>
             <div className='flex items-center gap-4'>
                 <Image src={'/keshav.png'} alt='keshav' width={60} height={60} className='rounded-sm hover:grayscale-100 transition-all duration-300 cursor-pointer' />
                 <div className='flex flex-col'>

@@ -36,7 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${oxygen.variable} antialiased`}
       >
-          <div className="w-1/2 mx-auto py-5">
+          <div className="md:w-1/2 mx-auto py-5 px-4">
             <Header />
             {children}
             <Footer />

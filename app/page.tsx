@@ -8,14 +8,15 @@ import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
-    <div className="flex gap-8 pb-8 flex-col">
+    <div className="flex gap-2 md:pb-8 pb-4 flex-col">
       <Hero />
-      <div className='w-full my-4 h-[1px] bg-[#363635]'></div>
+      <div className='w-full md:my-4 my-2 h-[1px] bg-[#363635]'></div>
       <TechStack />
-      <div className='w-full my-4  h-[1px] bg-[#363635]'></div>
+      <div className='w-full md:my-4 my-2 h-[1px] bg-[#363635]'></div>
       <Experiance />
-      <div className='w-full my-4  h-[1px] bg-[#363635]'></div>
-      {/* <Projects /> */}
+      <div className='w-full md:my-4 my-2 h-[1px] bg-[#363635]'></div>
+      <Projects />
+      <div className='w-full md:my-4 my-2 h-[1px] bg-[#363635]'></div>
     </div>
   );
 }
