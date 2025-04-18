@@ -6,7 +6,7 @@ const projectData = [
     title: 'Formix',
     description: 'Formix is a dynamic form creation platform with drag-and-drop builder, live preview, pre-built presets, persistent state (Redux), and full lifecycle features like sharing, analytics, and response tracking.',
     demoUrl: 'https://formix-seven.vercel.app/',
-    image: '/projects/formix.png',
+    image: '/projects/Formix.png',
     githubUrl : 'https://github.com/Keshav-0907/formix',
     date: 'March 2025',
   },
