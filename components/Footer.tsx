@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
             <div className='flex flex-col'>
               <span className='font-bold'>📄 Resume </span>
-              <Link href={'https://drive.google.com/file/d/169LXQt_jzHVD86Y6SqayyA5W7dOZUD8V/view?usp=sharing'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2 md:text-base text-xs'> Download Resume </Link>
+              <Link href={'https://drive.google.com/file/d/1H9ok3LtZor1WHMLzFKRCSqgx-ufmmrgZ/view?usp=sharing'} target='_blank' className='text-[#7d7474] hover:text-[#a19595] cursor-pointer hover:underline underline-offset-2 md:text-base text-xs'> Download Resume </Link>
             </div>
           </div>
         </div>

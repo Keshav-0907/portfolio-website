@@ -6,7 +6,7 @@ import { getCalApi } from "@calcom/embed-react";
 const headerItems = [
   { title: "Lets Talk", href: "/", key: 't' },
   { title: "projects", href: "/", key: 'p' },
-  { title: "resume", href: "https://drive.google.com/file/d/11HQxW-FKb5sMgtmR54iJpFdanCCV1E2A/view?usp=sharing", key: 'r' },
+  { title: "resume", href: "https://drive.google.com/file/d/1H9ok3LtZor1WHMLzFKRCSqgx-ufmmrgZ/view?usp=sharing", key: 'r' },
   { title: "github", href: "https://github.com/Keshav-0907", key: 'g' },
 ];
 
