@@ -9,7 +9,7 @@ const About = () => {
             </div>
 
             <div>
-                <span className='font-semibold'>Freelanced with 10+ clients</span>, and built tools like <Link href={'https://formix-seven.vercel.app/'} target='_blank' className='font-semibold underline underline-offset-2'>Formix</Link> & <Link className='font-semibold underline underline-offset-2' href={'https://mylb.xyz/'} target='_blank'>MyLinkBit</Link> to solve real-world problems with clean, scalable solutions.
+                <span className='font-semibold'>Freelanced with 10+ clients</span>, and built tools like <Link href={'https://formix-seven.vercel.app/'} target='_blank' className='font-semibold underline underline-offset-2'>Formix</Link> & <Link className='font-semibold underline underline-offset-2' href={'https://tap-feedback.vercel.app/'} target='_blank'>Tap Feedback</Link> to solve real-world problems with clean, scalable solutions.
             </div>
 
             <div>Always building, always learning. ⚒️</div>

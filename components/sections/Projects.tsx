@@ -16,6 +16,13 @@ const projectData = [
     demoUrl: 'https://www.gharsetu.com/',
     image: '/projects/Gharsetu.png',
     date: 'March 2025',
+  },
+  {
+    title: 'Tap Feedback',
+    description: 'A customizable website widget platform for collecting user feedback, featuring embeddable pop-ups, real-time previews, animation settings, and branding controls—perfect for improving engagement and user insights',
+    demoUrl: 'https://tap-feedback.vercel.app/',
+    image: '/projects/TapFeedback.png',
+    date: 'May 2025',
   }
 ]
 
