@@ -11,9 +11,10 @@ import { useEffect } from "react";
 export default function Home() {
 
 
+
 useEffect(() => {
   const script = document.createElement("script");
-  script.src = "https://tap-feedback.vercel.app/embed/cmal074820004ullkio8h1hvu";
+  script.src = "https://tap-feedback.vercel.app/embed/cmasp9qu3000bulds21g6uya3";
   script.async = true;
   document.body.appendChild(script);
 
@@ -21,6 +22,7 @@ useEffect(() => {
     document.body.removeChild(script);
   };
 }, []);
+  
   
   return (
     <div className="flex gap-2 md:pb-8 pb-4 flex-col">
